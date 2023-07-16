@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode=development",
-    "start": "npm run build && webpack-dev-server --open 'chrome' --mode=development"
+    "start": "npm run build && webpack-dev-server --open 'chrome' --mode=development",
+    "lint": "eslint src --ext .js"
   },
   "keywords": [],
   "author": "",
