@@ -1,0 +1,16 @@
+{
+  "name": "shape-tracker",
+  "version": "1.0.0",
+  "description": "_Shape Tracker_\r #### By _Julien Lenaz_\r #### _Website which analyzes whether the user's shape is a triangle or not_\r [GitHub Repo](https://github.com/julienlen/shape-tracker)\r ## Technologies used:\r *_HTML_\r *_CSS_\r *_Javascript_\r *_Git_",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode=development"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "4.46.0",
+    "webpack-cli": "3.3.12"
+  }
+}
