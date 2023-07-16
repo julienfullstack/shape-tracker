@@ -1,4 +1,7 @@
 const path = require('path');
+const webpack = require('webpack');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const { CleanWebpackPlugin } = require('clean-webpack-plugin'); // new line
 
 module.exports = {
   entry: './src/index.js',
@@ -6,6 +9,17 @@ module.exports = {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist')
   },
+  devtool: 'eval-source-map', //makes page load slower, do not include in build of website
+  plugins: [
+    new CleanWebpackPlugin({
+      verbose: true
+    }),
+    new HtmlWebpackPlugin({
+      title: 'Shape Tracker',
+      template: './src/index.html',
+      inject: 'body'
+    })
+  ],
   module: {
     rules: [
       {
