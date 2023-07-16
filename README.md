@@ -7,6 +7,8 @@ _Shape Tracker_
 *_CSS_
 *_Javascript_
 *_Git_
+*_Nodes.JS_
+*_jQuery_
 
 ## Description
 A simple website which indicates if the shape described by the user is a triangle or not based on the number of sides indicated by the user. 
