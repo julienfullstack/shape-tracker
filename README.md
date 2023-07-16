@@ -1,7 +1,11 @@
 _Shape Tracker_
 #### By _Julien Lenaz_
-#### _Website which analyzes whether the user's shape is a triangle or not_
+#### _Website which analyzes whether the user's shape is a triangle or not demonstrating jQuery and Node.js skills_
+
+[GitHub Pages Site](https://julienlen.github.io/shape-tracker)
 [GitHub Repo](https://github.com/julienlen/shape-tracker)
+
+
 ## Technologies used:
 *_HTML_
 *_CSS_
