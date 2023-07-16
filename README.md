@@ -1,14 +1,15 @@
 _Shape Tracker_
 #### By _Julien Lenaz_
-#### _Website which analyzes text based on user input_
+#### _Website which analyzes whether the user's shape is a triangle or not_
 [GitHub Repo](https://github.com/julienlen/shape-tracker)
 ## Technologies used:
 *_HTML_
 *_CSS_
 *_Javascript_
 *_Git_
-## Description
 
+## Description
+A simple website which indicates if the shape described by the user is a triangle or not based on the number of sides indicated by the user. 
 ## Set up
 *_Open folder in code editer OR_
 *_Run in any browser*
